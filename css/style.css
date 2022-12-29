@@ -23,13 +23,13 @@
   --text-color-bg-theme-color1: #fff;
   --text-color-bg-theme-color2: #164333;
   --text-color-bg-theme-color3: #fff;
-  --text-color: #808287;
+  --text-color: #343a40;;
   --headings-color: var(--theme-color1);
   --link-color: var(--theme-color1);
   --link-hover-color: var(--theme-color1);
   --text-font: "DM Sans", sans-serif;
   --title-font: "Space Grotesk", sans-serif;
-  --body-font-size: 16px;
+  --body-font-size: 1.1rem !important;
   --body-line-height: 30px;
   --body-font-weight: 400;
   --line-height-heading-h1: 1em;
@@ -3350,7 +3350,7 @@ Section Title
   height: 100%;
   padding: 40px 40px 30px;
   background-color: #ffffff;
-  background-image: url(../images/icons/shape-1.jpg);
+  background-image: url(../images/icons/network.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13147,7 +13147,7 @@ Page Title
 }
 .services-details__content .feature-list .single-item:hover {
   background-color: var(--theme-color2);
-  color: var(--text-color-bg-theme-color2);
+  color: black !important;
 }
 .services-details__content .feature-list .single-item:hover .icon-box {
   color: var(--text-color-bg-theme-color2);
