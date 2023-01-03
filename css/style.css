@@ -687,8 +687,9 @@ li {
   background-position: center center;
   background-repeat: no-repeat;
   background-image: url(../images/nigsearch_logo.jpg);
-  /* background-size: 300px; */
   content: "";
+  animation: wobble;
+  animation-duration: 2s;
 }
 
 @media screen and (max-width: 768px){
