@@ -9,7 +9,7 @@
   if (!empty($email) && !empty($phone)) {
     if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
-        $to = " vivian.akpoke@trostechnologies.com";
+        $to = " hello@nigsearch.com";
         $from = "$email";
         $fromName = "$name";
 
@@ -50,8 +50,8 @@
 
         // Additional headers
         $headers .= 'From: ' . $fromName . '<' . $from . '>' . "\r\n";
-        $headers .= 'Reply-To:' . $fromName . ' vivian.akpoke@trostechnologies.com' . "\r\n";
-        $headers .= 'Bcc: vivian.akpoke@trostechnologies.com' . "\r\n";
+        $headers .= 'Reply-To:' . $fromName . ' hello@nigsearch.com' . "\r\n";
+        $headers .= 'Bcc: hello@nigsearch.com' . "\r\n";
 
         // Send email
         if (mail($to, $subject, $htmlContent, $headers)) {         
