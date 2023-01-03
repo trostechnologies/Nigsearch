@@ -1442,6 +1442,7 @@ Scroll To Top style
             transform: translateY(0);
   }
 }
+/* tested */
 @-webkit-keyframes bounce-y {
   0% {
     -webkit-transform: translateY(0);
