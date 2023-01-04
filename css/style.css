@@ -1703,6 +1703,7 @@ Main Header
       -ms-flex-pack: justify;
           justify-content: space-around ! important;
   width: 100%;
+  margin-left: 50px;
 }
 
 .main-menu {
@@ -1953,7 +1954,6 @@ Main Header
   display: -ms-flexbox;
   display: flex;
   padding: 10px 40px;
-  margin-left: 30px;
 }
 .main-header .header-lower .outer-box .ui-btn-outer {
   display: -webkit-box;
