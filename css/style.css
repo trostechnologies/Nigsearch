@@ -1701,7 +1701,7 @@ Main Header
           align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: center;
+          justify-content: space-around ! important;
   width: 100%;
 }
 
